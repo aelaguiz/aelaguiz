@@ -1,6 +1,6 @@
 # Hi, I'm Amir 👋
 
-📍 **Austin, TX** | 🤖 **Building agent infrastructure** | 🏁 **Doctrine + Rally** | 🚀 **YC S13 founder @ Poker Skill + Cratejoy**
+📍 **Austin, TX** | 🤖 **Building agent infrastructure** | 🏁 **Rally + Doctrine** | 🚀 **YC S13 founder @ Poker Skill + Cratejoy**
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -11,12 +11,12 @@
 ![CLI](https://img.shields.io/badge/-CLI-000000?style=flat-square&logo=gnu-bash&logoColor=white)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
-> I build the boring but necessary layer that makes agents usable in real work: typed instructions, visible state, recoverability, and operator control. The goal is simple: make agent workflows feel like software instead of prompt soup.
+> I build the boring but necessary layer that makes coding agents usable in real work: strong stable workflows, visible runtime state, and instructions that read like code instead of markdown sludge.
 
 ## Current Projects
 
-- 📜 **[Doctrine](https://github.com/aelaguiz/doctrine)** — typed DSL and compiler for reusable AI agent instructions and workflows that compile to `AGENTS.md`
-- 🏁 **[Rally](https://github.com/aelaguiz/rally)** — filesystem-first harness for repo-local multi-agent coding workflows
+- 🏁 **[Rally](https://github.com/aelaguiz/rally)** — strong, stable coding-agent workflows with filesystem-visible run state you can inspect and recover
+- 📜 **[Doctrine](https://github.com/aelaguiz/doctrine)** — code-like DSL and compiler for agent workflows that compile to portable `AGENTS.md` instructions
 - 🧪 **[codex-autoresearcher](https://github.com/aelaguiz/codex-autoresearcher)** — worker/judge harness for optimizing anything you can measure
 - 🧰 **[aimgr](https://github.com/aelaguiz/aimgr)** — operator tooling for AI accounts, browsers, and local agent rails
 - 🌐 **[mcp-url-fetch](https://github.com/aelaguiz/mcp-url-fetch)** — MCP server for fetching URLs from Claude, Cline, and other clients
@@ -25,9 +25,9 @@
 
 ## Why this stack
 
-- **Doctrine** is the authoring and compiler layer.
-- **Rally** is the runtime and harness layer.
-- Together they aim to make AI workflows typed, inspectable, and recoverable.
+- **Rally** is the front-door runtime and harness layer for strong, stable coding-agent workflows.
+- **Doctrine** is the code-like authoring and compiler layer underneath those workflows.
+- Together they aim to make AI workflows inspectable, recoverable, and maintainable instead of prompt soup.
 
 ## Background
 
@@ -38,8 +38,8 @@
 
 ## Start here
 
-- If you want the authoring and compiler layer, start with **[Doctrine](https://github.com/aelaguiz/doctrine)**.
-- If you want the runtime and harness layer, start with **[Rally](https://github.com/aelaguiz/rally)**.
+- If you want strong, stable coding-agent workflows, start with **[Rally](https://github.com/aelaguiz/rally)**.
+- If you want the code-like authoring layer underneath those workflows, start with **[Doctrine](https://github.com/aelaguiz/doctrine)**.
 - If you want the earlier public line into this work, start with **[langdspy](https://github.com/aelaguiz/langdspy)**.
 
 <details>
